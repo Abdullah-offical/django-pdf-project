@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container" style="padding: 50px;margin-top: 5%;">
+    
+    <h2 class="text-center">Automate The Boring Stuff With Django</h2>
+    <div class="row pt-5">
+        <!-- Import data -->
+        <div class="col-md-4">
+            <a href="#" class="text-decoration-none text-dark">
+                <div class="card alert-primary shadow">
+                    <div class="card-header">
+                    <h4 class="text-center p-3">Split PDF</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Export Data -->
+        <div class="col-md-4">
+            <a href="" class="text-decoration-none text-dark">
+                <div class="card alert-success shadow">
+                    <div class="card-header">
+                        <h4 class="text-center p-3">Marge PDF</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Bulk Emails -->
+        <div class="col-md-4">
+            <a href="" class="text-decoration-none text-dark">
+                <div class="card alert-danger shadow">
+                    <div class="card-header">
+                        <h4 class="text-center p-3">Lock PDF</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row pt-5">
+        <!-- Email Tracking -->
+        <div class="col-md-4">
+            <a href="" class="text-decoration-none text-dark">
+                <div class="card alert-warning shadow">
+                    <div class="card-header">
+                        <h4 class="text-center p-3">Unlock PDF</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Compress Images -->
+        <div class="col-md-4">
+            <a href="{% url 'pdf_to_word' %}" class="text-decoration-none text-dark">
+                <div class="card alert-danger shadow">
+                    <div class="card-header">
+                        <h4 class="text-center p-3">PDF to Word</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Web Scraping -->
+        <div class="col-md-4">
+            <a href="" class="text-decoration-none text-dark">
+                <div class="card alert-warning shadow">
+                    <div class="card-header">
+                        <h4 class="text-center p-3">PDF to CSV</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+{% endblock content %}
+    
