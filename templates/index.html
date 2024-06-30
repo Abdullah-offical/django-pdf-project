@@ -7,7 +7,7 @@
     <div class="row pt-5">
         <!-- Import data -->
         <div class="col-md-4">
-            <a href="#" class="text-decoration-none text-dark">
+            <a href="{% url 'split_form' %}" class="text-decoration-none text-dark">
                 <div class="card alert-primary shadow">
                     <div class="card-header">
                     <h4 class="text-center p-3">Split PDF</h4>
@@ -17,7 +17,7 @@
         </div>
         <!-- Export Data -->
         <div class="col-md-4">
-            <a href="" class="text-decoration-none text-dark">
+            <a href="{% url 'marge_pdf' %}" class="text-decoration-none text-dark">
                 <div class="card alert-success shadow">
                     <div class="card-header">
                         <h4 class="text-center p-3">Marge PDF</h4>
@@ -28,7 +28,7 @@
 
         <!-- Bulk Emails -->
         <div class="col-md-4">
-            <a href="" class="text-decoration-none text-dark">
+            <a href="{% url 'pdf_lock' %}" class="text-decoration-none text-dark">
                 <div class="card alert-danger shadow">
                     <div class="card-header">
                         <h4 class="text-center p-3">Lock PDF</h4>
@@ -41,7 +41,7 @@
     <div class="row pt-5">
         <!-- Email Tracking -->
         <div class="col-md-4">
-            <a href="" class="text-decoration-none text-dark">
+            <a href="{% url 'pdf_unlock' %}" class="text-decoration-none text-dark">
                 <div class="card alert-warning shadow">
                     <div class="card-header">
                         <h4 class="text-center p-3">Unlock PDF</h4>
@@ -62,7 +62,7 @@
 
         <!-- Web Scraping -->
         <div class="col-md-4">
-            <a href="" class="text-decoration-none text-dark">
+            <a href="{% url 'pdf_to_csv' %}" class="text-decoration-none text-dark">
                 <div class="card alert-warning shadow">
                     <div class="card-header">
                         <h4 class="text-center p-3">PDF to CSV</h4>
